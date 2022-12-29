@@ -100,7 +100,7 @@ class Main extends Sprite
 		
 		
 		var ourSource:String = "assets/videos/DO NOT DELETE OR GAME WILL CRASH/dontDelete.webm";
-		WebmPlayer.SKIP_STEP_LIMIT = 90;
+		//WebmPlayer.SKIP_STEP_LIMIT = 90;
 		#if web
 		var str1:String = "HTML CRAP";
 		var vHandler = new VideoHandler();
