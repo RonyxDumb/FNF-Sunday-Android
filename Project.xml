@@ -2,8 +2,7 @@
 <project>
 	<!-- _________________________ Application Settings _________________________ -->
 
-	<app title="Friday Night Funkin': Kade Engine" file="Vs Sunday WITH SHADERS" packageName="com.kadedev.sunday" package="com.kadedev.sunday" main="Main" version="0.2.7.1" company="kadedev" if="shaders" />
-	<app title="Friday Night Funkin': Kade Engine WITHOUT SHADERS" file="Vs Sunday" packageName="com.kadedev.sunday" package="com.kadedev.sunday" main="Main" version="0.2.7.1" company="kadedev" unless="shaders" />
+	<app title="Friday Night Funkin': VS Sunday" file="Sunday Android " packageName="com.kadedev.sunday" package="com.kadedev.sunday" main="Main" version="0.2.7.1" company="kadedev" />
 
 	<!--Switch Export with Unique ApplicationID and Icon-->
 	<set name="APP_ID" value="0x0100f6c013bbc000" />
@@ -109,6 +108,9 @@
 	<haxelib name="polymod"/>
 	<haxelib name="discord_rpc" if="windows"/>
 	<haxelib name="linc_luajit" if="windows"/>
+
+	<!--Enable HScript fine error reporting at parsing time-->
+    <haxedef name="hscriptPos" if="hscript" />
 
 	<!-- <haxelib name="hxcpp-debug-server" if="desktop"/> -->
 
